@@ -1,0 +1,136 @@
+body{
+    background-image: url('../../assets/img/barber.jpg');
+}
+
+.back{
+    background-image: url('../../assets/img/barber.jpg');
+}
+
+.account{
+    background:  #2f323b;
+    padding-top: 150px;
+}
+.account-col{
+    width:300px;
+    margin: 0 auto;
+    text-align: center;
+}
+.account-col h1{
+    color:goldenrod;
+    font-weight: 800;
+    text-transform: uppercase;
+    text-shadow: 1px 1px rgba(0,0,0,0.1);
+    margin-bottom: 25px;
+}
+.account-col h3{
+    color:#888;
+    margin-bottom: 10px;
+    font-size: 13px;
+    font-weight:400;
+    text-transform: capitalize;
+}
+.account-col .form-control{
+    -webkit-border-radius: 0px;
+    border-radius: 0px;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+}
+.account-col .btn-primary{
+    border: 0px;
+    height: 35px;
+    width: 325px;
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    background-color: #191919;
+    margin-bottom: 20px;
+    border-style: groove;
+}
+ .account-col p{
+    color: #848c94;
+}
+.account-col a{
+    color: white;
+}
+.account-col a:hover{
+    color:goldenrod;
+}
+.account-col .btn-default{
+    border:0px;
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    background-color:transparent;
+    margin-bottom: 20px;
+    color:#848c94;
+}
+.account-col .btn-default:hover{
+    color:goldenrod;
+    background-color: transparent;
+}
+
+.form-control,.form-control[disabled], .form-control[readonly], fieldset[disabled] .form-control{
+    border-radius: 0px;
+    box-shadow: none;
+    border: 1px solid rgba(255,255,255,0.1);
+    color:#fff;
+    background-color: transparent;
+}
+
+.form-group {
+    margin-bottom: 15px;
+  }
+
+  .form-control {
+    display: block;
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+            box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+         -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+            transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+  }
+
+
+  .btn-default {
+    color: #333;
+    background-color: #fff;
+    border-color: #ccc;
+  }
+  .btn-default:focus,
+  .btn-default.focus {
+    color: #333;
+    background-color: #e6e6e6;
+    border-color: #8c8c8c;
+  }
+  .btn-default:hover {
+    color: #333;
+    background-color: #e6e6e6;
+    border-color: #adadad;
+  }
+  .btn-block {
+    display: block;
+    width: 100%;
+
+  }
+  .btn-primary {
+    color: goldenrod;
+    background-color: goldenrod;
+    border-color: gold;
+  }
+
+  .text-center {
+  text-align: center;
+}
+
+.copy
+{
+    font-size: medium;
+}

@@ -1,0 +1,36 @@
+table
+{
+    border-style: hidden; 
+    border-width: 0px; 
+    width:80%; 
+    height:60%;
+    color:#C0C0C0; 
+    background-color:rgba(0, 0, 0, 0.00); 
+    margin:auto;
+     vertical-align: middle; 
+     text-align: center; 
+     font-style: normal; 
+     font-weight: bold;
+}
+
+.position
+{
+    padding: 2em;
+    vertical-align: text-bottom;
+}
+
+img
+{
+    width:100px;
+    height:100px;
+}
+
+a
+{
+    color:black;
+}
+
+a:hover
+{
+    color: goldenrod;
+}
